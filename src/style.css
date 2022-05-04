@@ -4,5 +4,9 @@ fieldset {
 }
 
 .form-field {
-  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.last {
+  margin-bottom: 0;
 }
