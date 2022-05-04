@@ -113,7 +113,7 @@
             > No
           </div>
           <div class="form-field">
-            <label for="color">What is your favourite color? </label>
+            <label for="color">What is your favorite color? </label>
             <input
               type="color"
               id="color"
@@ -145,13 +145,13 @@
           <div class="form-field last">
             <label for="rate">How do you rate out work? </label>
             <input
-            type="range"
-            id="rate"
-            name="rate"
-            min="0"
-            max="100"
-            step="10"
-            value="0"
+              type="range"
+              id="rate"
+              name="rate"
+              min="0"
+              max="100"
+              step="10"
+              value="0"
             >
           </div>
         </fieldset>
@@ -161,25 +161,31 @@
           <div class="form-field">
             <label for="comment">Comments: </label>
             <textarea
-            name="comment"
-            id="comment"
-            cols="20"
-            rows="0"
+              id="comment"
+              name="comment"
+              cols="20"
+              rows="0"
             >
             </textarea>
           </div>
           <div class="form-field last">
             <label for="rec">Would you recommend us? </label>
-            <select name="recommendUs" id="rec">
-              <option value="yes">Yes</option>
-              <option value="maybe">Maybe</option>
-              <option value="no">No</option>
+            <select
+              id="rec"
+              name="recommendUs"
+            >
+              <option value="yes">yes</option>
+              <option value="maybe">maybe</option>
+              <option value="no">no</option>
             </select>
           </div>
         </fieldset>
 
         <div class="button">
-          <button type="submit">
+          <button
+            type="submit"
+            name="submitButton"
+          >
             Submit
           </button>
         </div>
